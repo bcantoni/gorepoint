@@ -24,7 +24,7 @@ If value False is returned, need to reinstall (details learned from [this eventm
 
 With a working Ruby environment, do the following to update packages:
 1. Run `bundle install` to install Jekyll and dependent packages
-2. Or run `bundle upgrade` to upgrade to the latest
+2. Run `bundle update` to upgrade to the latest
 3. Make sure the site works with `bundle exec jekyll serve`
 4. Commit changes made to `Gemfile.lock` to a branch and create a PR
 5. If the PR preview looks good, merge it
